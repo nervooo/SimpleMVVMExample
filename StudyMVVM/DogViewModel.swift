@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 class DogViewModel {
     
     private var myDog:DogModel

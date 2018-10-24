@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Dog View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StudyMVVM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DogView" customModule="StudyMVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,9 +58,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="petDescriptionLabel" destination="TFu-u6-vyK" id="jfX-WI-llT"/>
-                        <outlet property="petLegsLabel" destination="yKU-2i-ZWA" id="EaD-bc-mv3"/>
-                        <outlet property="petNameLabel" destination="hC8-Vl-Z7W" id="92d-pm-sca"/>
+                        <outlet property="petDescriptionLabel" destination="TFu-u6-vyK" id="UWM-T8-LUb"/>
+                        <outlet property="petLegsLabel" destination="yKU-2i-ZWA" id="NOQ-zf-5O0"/>
+                        <outlet property="petNameLabel" destination="hC8-Vl-Z7W" id="dh8-N4-qoi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
